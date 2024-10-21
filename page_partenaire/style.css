@@ -1,0 +1,142 @@
+/*--------Zone de travail de entête --------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+header {
+        width: 100%;
+        height: 100vh;
+        background: #073362;
+}
+/*--------les barres de navigation et logos--------------*/
+nav {
+
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;  
+}
+.barre ul li {
+    display: inline-block;
+    padding: 8px  12px;
+    list-style: none;
+}
+.barre ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.barre ul li a:hover {
+    color: #03eefa;
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo span {
+        color: #03eefa;
+}
+
+.barre ul {
+        flex: 1;
+        text-align: right;
+}   
+.texte button {
+        width: 250px;
+        height: 60px;
+        color: #fff;
+        border: 2px solid #03eefa;
+        background: transparent;
+        margin-top: 30px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.5s;
+}
+/*--------les barres de navigation et Logo--------------*/
+/*----------------cercle*/
+.photos1{
+    display: flex;
+    position: absolute;
+    height: 50%;
+    top: 35%;
+    left: 8%;
+    border-radius: 50px;
+    overflow: hidden;
+
+}  
+.photos2 {
+    display: flex;
+    position: absolute;
+    height:50%;
+    width: 350px;
+    top: 35%;
+    left: 40%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.photos2 img {
+   object-position: center;
+}
+.photos3{
+    display: flex;
+    position: absolute;
+    height: 50%;
+    top: 35%;
+    left: 68%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+
+/* -------------Texte d'introd */
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    color: #fff;
+}
+/* liste partenaires */
+    .partenaires ul {
+            font-size: 30px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 2% 20%;
+            justify-content: space-between; 
+            color: #fff;
+            font-weight: 600;
+
+    }
+    .partenaires ul li {
+        margin: 15px; ;
+    }
+
+img {
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
